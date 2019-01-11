@@ -12,6 +12,20 @@
       <footer><center>
         This page is currently in development, check back later.
         </center></footer>
+      
+       <script>
+         function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "talented" && password == "talented"){
+alert ("Login successfully");
+  }
+  else{
+    alert("Invalid username or password");
+    }
+  return false;
+  }
+         </script>
     </body>
   </head>
 </html>
